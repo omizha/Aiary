@@ -1,0 +1,46 @@
+{
+    "expo": {
+        "name": "Aiary",
+        "slug": "Alary",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "src/assets/images/icon.png",
+        "scheme": "aiary",
+        "userInterfaceStyle": "automatic",
+        "splash": {
+            "image": "src/assets/images/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "packagerOpts": {
+            "config": "metro.config.js",
+            "sourceExts": ["js", "jsx", "svg"],
+            "transformer": "node_modules/react-native-svg-transformer/index.js"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "src/assets/images/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
+            },
+            "package": "com.maemesoft.Alary"
+        },
+        "web": {
+            "favicon": "src/assets/images/favicon.png"
+        },
+        "description": "",
+        "githubUrl": "https://github.com/maemenaver",
+        "extra": {
+            "pingpong": {
+                "Authorization": "example: Basic DF545BGHDFNG67667TRF8778BGRFRFDS",
+                "URL": "example: https://builder.pingpong.us/api/builder/{BOT_ID}/integration/v0.2/custom"
+            }
+        }
+    }
+}
