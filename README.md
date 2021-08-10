@@ -1,14 +1,14 @@
 # Aiary: AI가 함께하는 감정일기장
 
-> 숭실대학교 2021 SG 해커톤 최종 2등
+> 숭실대학교 2021 SG 해커톤 최종 2등🏆
 
 <table>
   <tr>
     <td align='center'>
-      <img src="https://github.com/maemenaver/Aiary/blob/main/src/assets/images/splash.png?raw=true" height=500 />
+      <img src="https://github.com/maemenaver/Aiary/blob/main/src/assets/images/splash.png?raw=true" width=200 />
     </td>
     <td align='center'>
-      <img src="https://github.com/maemenaver/Aiary/blob/main/resources/imageMain.png?raw=true" height=500 />
+      <img src="https://github.com/maemenaver/Aiary/blob/main/resources/imageMain.png?raw=true" width=200 />
     </td>
   </tr>
 </table>
@@ -30,6 +30,8 @@
 **캐치프라이즈**: 내 일기를 위한 단 한명의 독자, 아이어리
 
 **특징**: 작성한 감정일기에 AI가 답글을 작성하여 원문과 함께 감상 가능
+
+---
 
 ## 어플리케이션 소개
 
@@ -59,10 +61,12 @@
     <td>프론트엔드</td>
   <tr>
     <td align='center'><a href='https://pingpong.us/'>
-      <img src="https://github.com/maemenaver/Aiary/blob/main/resources/logo_pingpong.png?raw=true" width=200 />
+      <img src="https://github.com/maemenaver/Aiary/blob/main/resources/logo_pingpong.png?raw=true" width=200 /><br />
+      핑퐁 빌더
     </a></td>
     <td align='center'><a href='https://reactnative.dev/'>
-      <img src="https://github.com/maemenaver/Aiary/blob/main/resources/logo_reactNative.png?raw=true" width=200 />
+      <img src="https://github.com/maemenaver/Aiary/blob/main/resources/logo_reactNative.png?raw=true" width=200 /><br />
+    React Native
     </a></td>
   </tr>
 </table>
