@@ -29,7 +29,7 @@
 
 **캐치프라이즈**: 내 일기를 위한 단 한명의 독자, 아이어리
 
-**특징**: 작성한 감정일기에 AI가 답글을 작성하여 원문과 함께 감상 가능
+**특징**: 감정일기 작성 이후 각 문장에 대한 AI의 답글을 감상 가능
 
 ---
 
@@ -66,7 +66,7 @@
     </a></td>
     <td align='center'><a href='https://reactnative.dev/'>
       <img src="https://github.com/maemenaver/Aiary/blob/main/resources/logo_reactNative.png?raw=true" width=200 /><br />
-    React Native
+      React Native
     </a></td>
   </tr>
 </table>
