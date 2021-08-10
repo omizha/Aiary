@@ -1,29 +1,71 @@
-# Aiary
+# Aiary: AI가 함께하는 감정일기장
 
-<img src="https://github.com/maemenaver/Aiary/blob/main/src/assets/images/splash.png?raw=true" height=500 />
-<img src="https://github.com/maemenaver/Aiary/blob/main/resources/imageMain.png?raw=true" height=500 />
+> 숭실대학교 2021 SG 해커톤 최종 2등
 
+<table>
+  <tr>
+    <td align='center'>
+      <img src="https://github.com/maemenaver/Aiary/blob/main/src/assets/images/splash.png?raw=true" height=500 />
+    </td>
+    <td align='center'>
+      <img src="https://github.com/maemenaver/Aiary/blob/main/resources/imageMain.png?raw=true" height=500 />
+    </td>
+  </tr>
+</table>
 
+---
 
 ## 개요
 
-**주제**: 코로나 관련 어플리케이션
-**내용**: 챗봇 API를 활용한 감정일기 작성 및 뷰어
+### 대회 정보
 
-### 세부 기능
+**주제어**: 코로나
 
-- 감정일기 작성: 텍스트 및 감정 상태(5단계) 기록 가능
+**플랫폼**: 앱 / 웹 / 게임
+
+### 어플리케이션 정보
+
+**이름**: Aiary (AI + Diary)
+
+**캐치프라이즈**: 내 일기를 위한 단 한명의 독자, 아이어리
+
+**특징**: 작성한 감정일기에 AI가 답글을 작성하여 원문과 함께 감상 가능
+
+## 어플리케이션 소개
+
+### 기획 배경
+
+코로나19의 지속으로 코로나 블루(코로나에 의한 삶의 변화로부터 불안, 우울, 무기력감을 느끼는 현상)를 호소하는 사람이 지속적으로 발생하는 가운데, 이를 극복하기 위한 방법으로 가장 널리 추천되는 활동 중 하나가 감정일기 작성이다.
+
+그러나, 바쁜 현대인에게 있어 감정일기 작성을 지속하는 것은 의지만으로는 쉽지 않은 일이다. 우리 조는 이러한 감정일기를 작성하는 데에 동기를 부여할 수 있는 방법이 있을지 고민하였고, 그 결과로 Aiary를 기획하게 되었다.
+
+### 기능 일람
+
+- 감정일기 작성하기
+  - 텍스트와 함께 감정 상태를 5단계로 기록 가능
+- 분석하기
+  - 저장된 감정일기 화면의 버튼을 눌러 분석
+  - 분석 완료 화면에는 감정일기의 각 줄에 대한 AI의 답글이 함께 표시
 - 감정일기 돌아보기
-  - 챗봇 AI가 각 문장에 대한 반응을 답글로 작성
-  - 캘린더 및 목록 형태로 작성된 감정일기 탐색
-- 감정 그래프: 기록된 5단계의 감정을 그래프로 표시
+  - 날짜별로 작성한 감정일기를 캘린더 및 목록 형태로 탐색 가능
+- 감정 그래프
+  - 최근 일주일 기록된 5단계의 감정 상태가 그래프로 표시
 
-## 개발 스택
+## 개발 정보
 
-- [핑퐁 빌더](https://pingpong.us/)
-- React Native
-
-
+<table>
+  <tr>
+    <td>답글 생성</td>
+    <td>프론트엔드</td>
+  <tr>
+    <td align='center'><a href='https://pingpong.us/'>
+      <img src="https://github.com/maemenaver/Aiary/blob/main/resources/logo_pingpong.png?raw=true" width=200 />
+    </a></td>
+    <td align='center'><a href='https://reactnative.dev/'>
+      <img src="https://github.com/maemenaver/Aiary/blob/main/resources/logo_reactNative.png?raw=true" width=200 />
+    </a></td>
+  </tr>
+</table>
 
 ## Contributors
 
