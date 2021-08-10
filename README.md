@@ -48,9 +48,9 @@
 
 ## 소개 영상
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/LMvCehuNZ9w" frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+<a href="https://www.youtube.com/watch?v=LMvCehuNZ9w">
+<img src="https://github.com/maemenaver/Aiary/blob/main/resources/youtube_thumbnail.PNG?raw=true" width=640 />
+</a>
 
 ## 스크린샷
 
