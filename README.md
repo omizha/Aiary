@@ -48,7 +48,9 @@
 
 ## 소개 영상
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/LMvCehuNZ9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/LMvCehuNZ9w" frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
 ## 스크린샷
 
