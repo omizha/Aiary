@@ -77,6 +77,6 @@
   <tr>
     <td align="center"><a href="https://github.com/maemenaver"><img src="https://avatars.githubusercontent.com/u/4525704?v=4?s=100" width="100px;" alt=""/><br /><sub><b>하정훈</b><br />개발</sub></a></td>
     <td align="center"><a href="https://github.com/QyuriLa"><img src="https://avatars.githubusercontent.com/u/68494132?v=4?s=100" width="100px;" alt=""/><br /><sub><b>구현</b><br />기획</sub></a></td>
-    <td align="center"><a href="https://github.com/maemenaver/Aiary"><img src="https://github.com/maemenaver/Aiary/blob/main/resources/designerProfile.png?raw=true" width="100px;" alt=""/><br /><sub><b>조용민</b><br />디자인</sub></a></td>
+    <td align="center"><a href="https://github.com/yongmin01"><img src="https://github.com/maemenaver/Aiary/blob/main/resources/designerProfile.png?raw=true" width="100px;" alt=""/><br /><sub><b>조용민</b><br />디자인</sub></a></td>
   </tr>
 </table>
