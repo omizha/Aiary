@@ -11,7 +11,7 @@ import {
     View,
     StyleSheet,
 } from "react-native";
-import BorderedTextButton from "../../components/button/BorderedTextButton";
+import BorderedTextButton from "../../components/primitives/button/BorderedTextButton";
 import {
     getDiary,
     setDiaryDelete,
