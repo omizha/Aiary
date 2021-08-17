@@ -6,7 +6,10 @@
         "ios": "expo start --ios",
         "web": "expo start --web",
         "eject": "expo eject",
-        "test": "jest --watchAll"
+        "test": "jest --watchAll",
+        "prestorybook": "rnstl",
+        "storybook": "start-storybook -p 7007",
+        "build-storybook": "build-storybook"
     },
     "jest": {
         "preset": "jest-expo"
@@ -17,7 +20,6 @@
         "@eva-design/eva": "^2.0.0",
         "@expo/react-native-action-sheet": "^3.9.0",
         "@expo/vector-icons": "^12.0.0",
-        "@expo/webpack-config": "^0.12.77",
         "@react-native-async-storage/async-storage": "^1.13.0",
         "@react-native-community/masked-view": "0.1.10",
         "@react-navigation/bottom-tabs": "5.11.2",
@@ -50,7 +52,6 @@
         "react": "16.13.1",
         "react-dom": "16.13.1",
         "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
-        "react-native-calendars": "^1.1264.0",
         "react-native-chart-kit": "^6.11.0",
         "react-native-config": "^1.4.2",
         "react-native-fast-image": "^8.3.4",
@@ -79,13 +80,33 @@
     },
     "devDependencies": {
         "@babel/core": "^7.9.0",
+        "@expo/webpack-config": "^0.14.0",
+        "@storybook/addon-actions": "^5.3",
+        "@storybook/addon-knobs": "^5.3",
+        "@storybook/addon-links": "^5.3",
+        "@storybook/addon-ondevice-actions": "^5.3.23",
+        "@storybook/addon-ondevice-knobs": "^5.3.25",
+        "@storybook/react-native": "^5.3.25",
+        "@storybook/react-native-server": "^5.3.23",
         "@types/react": "~16.9.35",
         "@types/react-native": "~0.63.2",
         "@types/react-redux": "^7.1.16",
+        "babel-loader": "^8.2.2",
         "jest-expo": "~41.0.0",
         "prettier": "2.1.2",
+        "react-native-storybook-loader": "^2.0.4",
         "react-native-svg-transformer": "^0.14.3",
         "typescript": "~4.0.0"
     },
-    "private": true
+    "private": true,
+    "config": {
+        "react-native-storybook-loader": {
+            "searchDir": [
+                "./src",
+                "./storybook"
+            ],
+            "pattern": "**/*.stories.*",
+            "outputFile": "./storybook/storyLoader.js"
+        }
+    }
 }
