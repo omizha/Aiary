@@ -3,7 +3,7 @@ import { storiesOf } from "@storybook/react-native";
 import { Center } from "native-base";
 import { number, radios, text } from "@storybook/addon-knobs";
 
-import { NativeBaseProvider } from "../NativeBaseProvider";
+import { NativeBaseProvider } from "../../NativeBaseProvider";
 import { PixelRatio } from "react-native";
 import Button, { ButtonProps } from ".";
 

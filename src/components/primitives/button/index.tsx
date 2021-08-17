@@ -8,8 +8,8 @@ import {
 import { PixelRatio } from "react-native";
 import { ResponsiveValue } from "styled-system";
 
-import Btn_google_dark_normal_ios from "../../assets/google/btn_google_dark_normal_ios";
-import Btn_google_light_normal_ios from "../../assets/google/btn_google_light_normal_ios";
+import Btn_google_dark_normal_ios from "../../../assets/google/btn_google_dark_normal_ios";
+import Btn_google_light_normal_ios from "../../../assets/google/btn_google_light_normal_ios";
 import { IPressableProps } from "native-base/lib/typescript/components/primitives";
 
 export interface ButtonProps extends IButtonProps {
