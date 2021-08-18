@@ -5,7 +5,7 @@ import { number, radios, text } from "@storybook/addon-knobs";
 
 import { NativeBaseProvider } from "../../NativeBaseProvider";
 import { PixelRatio } from "react-native";
-import Button, { ButtonProps } from ".";
+import Button, { ButtonProps } from "./Button";
 
 const btnGoogleName = "Theme";
 const btnGoogleOptions = {

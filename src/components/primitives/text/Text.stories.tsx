@@ -2,7 +2,7 @@ import React from "react";
 import { storiesOf } from "@storybook/react-native";
 import { Center, Link } from "native-base";
 import { text } from "@storybook/addon-knobs";
-import Text from ".";
+import Text from "./Text";
 
 import { NativeBaseProvider } from "../../NativeBaseProvider";
 import { PixelRatio } from "react-native";
