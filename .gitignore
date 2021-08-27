@@ -8,9 +8,12 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+storybook-static
 
 # macOS
 .DS_Store
 firebase.tsx
 firebase.ts
 README.tmp.md
+
+storybook/storyLoader.js

@@ -37,10 +37,7 @@
         "description": "",
         "githubUrl": "https://github.com/maemenaver",
         "extra": {
-            "pingpong": {
-                "Authorization": "example: Basic DF545BGHDFNG67667TRF8778BGRFRFDS",
-                "URL": "example: https://builder.pingpong.us/api/builder/{BOT_ID}/integration/v0.2/custom"
-            }
+            "STORYBOOK_TOGGLE": true
         }
     }
 }
